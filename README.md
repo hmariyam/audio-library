@@ -5,7 +5,7 @@ small kotlin application that can add, modify or delete songs. other features su
 - kotlin (programming language)
 - android studio (software)
 
-# needed improvements
+# much needed improvements
 - dark mode switch works, but when you go to another activity, and come back to switch the theme again, you have to click twice
 - language switch changes the format of the page
 
