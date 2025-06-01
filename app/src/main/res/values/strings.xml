@@ -1,0 +1,45 @@
+
+<resources>
+    <string name="app_name" translatable="false">Audio Library - TP2</string>
+    <string name="bonjour">Bonjour %1$s !</string>
+    <string name="toastProfile">Veuillez entrer un nom</string>
+    <string name="inserez_votre_nom">Insérez votre nom :</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="bienvenue">Bienvenue !</string>
+    <string name="voir_votre_librarie">Voir votre librairie</string>
+    <string name="ajouter_une_chanson">Ajouter une chanson</string>
+    <string name="profile_btn">Profil</string>
+    <string name="accueil_btn">Accueil</string>
+    <string name="librairie_btn">Librairie</string>
+    <string name="saisir_nom_chanson_hint">Entrez le nom de la chanson</string>
+    <string name="artiste_label">Artiste :</string>
+    <string name="nom_chanson_label">Nom :</string>
+    <string name="genre_chanson_label" translatable="false">Genre :</string>
+    <string name="ajouter_btn">Ajouter</string>
+    <string name="message_exception">Erreur! Le nom de la chanson existe déjà</string>
+    <string name="message_success">La chanson a été ajoutée avec succès!</string>
+    <string name="aucun_genre_selectionne">Aucun genre sélectionné</string>
+    <string name="aucun_artiste_selectionne">Aucun artiste sélectionné</string>
+    <string name="message_erreur_artiste">Attention! Veuillez ajouter un artiste à votre chanson</string>
+    <string name="message_erreur_genre">Attention! Veuillez ajouter un genre à votre chanson</string>
+    <string name="modifier">Modifier</string>
+    <string name="modification_d_une_chanson">Modifier une chanson</string>
+    <string name="message_success_modification">La modification a été effectuée avec succès!</string>
+    <string name="message_aucune_chanson">Aucune chanson trouvée</string>
+    <string name="recherche_label">Recherche :</string>
+    <string name="champ_recherche_desc">Champ de recherche de chanson</string>
+    <string name="filtrer_par_artiste">Filtrer par artiste</string>
+    <string name="filtrer_par_genre">Filtrer par genre</string>
+    <string name="filtre_artiste_desc">Menu de filtrage des artistes</string>
+    <string name="filtre_genre_desc">Menu de filtrage des genres</string>
+    <string name="reinitialiser">Réinitialiser</string>
+    <string name="bouton_reinitialiser_desc">Bouton pour réinitialiser les filtres</string>
+    <string name="votre_librarie">Votre Librarie</string>
+    <string name="liste_chansons_desc">Liste des chansons</string>
+    <string name="formulaire">Formulaire</string>
+    <string name="choisir_langue">Choisir une langue</string>
+    <string-array name="langues_disponibles">
+        <item>Français</item>
+        <item>English</item>
+    </string-array>
+</resources>

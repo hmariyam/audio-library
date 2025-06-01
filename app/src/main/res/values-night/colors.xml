@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors for dark mode background -->
+    <color name="gradient_start_light">#3E2F78</color>
+    <color name="gradient_center_light">#423776</color>
+    <color name="gradient_end_light">#3E2F78</color>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.main.PageModification">
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/profile_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/btnAccueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="@string/accueil_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnLibrairie"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnProfile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/btnLibrairie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="@string/librairie_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <TextView
+        android:id="@+id/tv_titre_formulaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/modification_d_une_chanson"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_nom_chanson_modification"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint=" "
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_nom_chanson"
+        app:layout_constraintStart_toStartOf="@+id/spinner_artiste"
+        app:layout_constraintTop_toTopOf="@+id/tv_nom_chanson" />
+
+    <TextView
+        android:id="@+id/tv_artiste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/artiste_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nom_chanson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/nom_chanson_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="@id/tv_artiste"
+        app:layout_constraintTop_toBottomOf="@id/tv_artiste" />
+
+    <TextView
+        android:id="@+id/tv_genre_chanson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/genre_chanson_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="@+id/tv_artiste"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nom_chanson" />
+
+    <Spinner
+        android:id="@+id/spinner_artiste"
+        android:layout_width="251dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_artiste"
+        app:layout_constraintStart_toEndOf="@+id/tv_artiste"
+        app:layout_constraintTop_toTopOf="@+id/tv_artiste" />
+
+    <Spinner
+        android:id="@+id/spinner_genre"
+        android:layout_width="244dp"
+        android:layout_height="48dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_genre_chanson"
+        app:layout_constraintStart_toStartOf="@+id/et_nom_chanson_modification"
+        app:layout_constraintTop_toTopOf="@+id/tv_genre_chanson" />
+
+    <Button
+        android:id="@+id/btn_modifier"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="224dp"
+        android:text="@string/modifier"
+        app:layout_constraintBottom_toTopOf="@+id/btnAccueil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_genre" />
+</androidx.constraintlayout.widget.ConstraintLayout>

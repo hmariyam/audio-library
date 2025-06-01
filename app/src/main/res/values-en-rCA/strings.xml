@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bonjour">Welcome %1$s !</string>
+    <string name="toastProfile">Please enter a name</string>
+    <string name="inserez_votre_nom">Input your name:</string>
+    <string name="sauvegarder">Save</string>
+    <string name="bienvenue">Welcome !</string>
+    <string name="voir_votre_librarie">View your library</string>
+    <string name="ajouter_une_chanson">Add a song</string>
+    <string name="profile_btn">Profile</string>
+    <string name="accueil_btn">Home</string>
+    <string name="librairie_btn">Library</string>
+    <string name="saisir_nom_chanson_hint">Enter the name of the song</string>
+    <string name="artiste_label">Artist :</string>
+    <string name="nom_chanson_label">Name :</string>
+    <string name="ajouter_btn">Add</string>
+    <string name="message_exception">Error! The song name already exists</string>
+    <string name="message_success">The song has been added successfully!</string>
+    <string name="aucun_genre_selectionne">No genre selected</string>
+    <string name="aucun_artiste_selectionne">No artist selected</string>
+    <string name="message_erreur_artiste">Warning! Please add an artist to your song</string>
+    <string name="message_erreur_genre">Warning! Please add a genre to your song</string>
+    <string name="modifier">Modify</string>
+    <string name="modification_d_une_chanson">Modifying a song</string>
+    <string name="message_success_modification">The modification was made successfully!</string>
+    <string name="message_aucune_chanson">No song found</string>
+    <string name="recherche_label">Search:</string>
+    <string name="champ_recherche_desc">Song search input field</string>
+    <string name="filtrer_par_artiste">Filter by artist</string>
+    <string name="filtrer_par_genre">Filter by genre</string>
+    <string name="filtre_artiste_desc">Artist filter menu</string>
+    <string name="filtre_genre_desc">Genre filter menu</string>
+    <string name="reinitialiser">Reset</string>
+    <string name="bouton_reinitialiser_desc">Button to reset filters</string>
+    <string name="votre_librarie">Your Library</string>
+    <string name="liste_chansons_desc">List of songs</string>
+    <string name="formulaire">Form</string>
+    <string name="choisir_langue">Choose a language</string>
+</resources>
